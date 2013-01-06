@@ -1,0 +1,58 @@
+
+body {
+/*    background-image: url(raspberry.png); */
+    font-family: Verdana, Sans-Serif;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}
+
+.files {
+    font-size: 9pt;
+}
+
+input[type=text] {
+    width: 400px;
+}
+
+.ytitem a {
+    color: black;
+}
+
+.ytitem {
+    height: 180px;
+    width: 600px;
+    border: 1px solid white;
+    float: left;
+    padding: 20px;
+}
+
+.ytitem img {
+    margin-right: 10px;
+}
+
+.ytitem:hover {
+    border: 1px solid blue;
+}
+
+.control {
+    padding: 10px;
+}
+
+.control a {
+    margin: 5px;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+.control a:hover {
+    background-color: #F77;
+}
