@@ -13,9 +13,11 @@ $data = json_decode($f);
        <link rel='stylesheet' href='main.css' type='text/css' />
     </head>
     <body>
+        <h1>Raspberry Pi Media Centre</h2>
         <form action='<?= $_SERVER['PHP_SELF'] ?>' method='GET'>
+            &nbsp; 
             <input type='text' name='query' />
-            <input type='submit' value='Search' />
+            <input type='submit' value='Suche' />
         </form>
 
 <?php foreach ($data->feed->entry as $e): ?>
